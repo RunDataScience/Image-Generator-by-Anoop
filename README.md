@@ -44,8 +44,27 @@ python app.py
 
 The repository includes several Jupyter notebooks for different use cases:
 - `image_generation_stable_diffusion.ipynb`: Local implementation of Stable Diffusion
-- `image_generation_stable_diffusion_colab.ipynb`: Google Colab version
+- `image_generation_stable_diffusion_colab.ipynb`: Google Colab version optimized for cloud execution
 - `saving-and-loading-model-local.ipynb`: Model management utilities
+
+### 🌐 Using Google Colab (No GPU Required)
+
+If you don't have a GPU-enabled system, you can still use this image generator through Google Colab(Free tier GPU).:
+
+1. Open the `image_generation_stable_diffusion_colab.ipynb` in Google Colab by clicking this button: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imanoop7/Image-Genrator/blob/main/image_generation_stable_diffusion_colab.ipynb)
+
+2. Benefits of using Colab:
+   - Free GPU access (Tesla T4/P100)
+   - No local installation required
+   - Pre-configured environment
+   - Run directly in your browser
+
+3. Steps to use:
+   - Click "Runtime" → "Change runtime type" → Select "GPU" as Hardware accelerator
+   - Run all cells in sequence
+   - Follow the prompts to generate images
+
+Note: Google Colab's free tier has usage limits and may disconnect after extended periods. For consistent usage, consider the local installation with a GPU.
 
 ## 📄 License
 
