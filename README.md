@@ -47,7 +47,7 @@ The repository includes several Jupyter notebooks for different use cases:
 - `image_generation_stable_diffusion_colab.ipynb`: Google Colab version optimized for cloud execution
 - `saving-and-loading-model-local.ipynb`: Model management utilities
 
-### 🌐 Using Google Colab (No GPU Required)
+### 🌐 Using Google Colab (if you do not Have GPU in your systems)
 
 If you don't have a GPU-enabled system, you can still use this image generator through Google Colab(Free tier GPU).:
 
